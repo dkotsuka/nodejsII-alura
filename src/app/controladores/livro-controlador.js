@@ -9,6 +9,7 @@ class LivroControlador {
 
     static rotas() {
         return {
+            autenticadas: '/livros*',
             lista: '/livros',
             formulario: '/livros/form',
             edicao: '/livros/form/:id',
